@@ -1,9 +1,7 @@
-import "./Concepts.css";
-import Card from "../UI/Card";
 import Components from "./Components";
 function Concepts(props) {
   return (
-    <Card>
+    <>
       <Components
         title={props.items[0].title}
         image={props.items[0].image}
@@ -19,7 +17,7 @@ function Concepts(props) {
         image={props.items[2].image}
         description={props.items[2].description}
       />
-    </Card>
+    </>
   );
 }
 export default Concepts;

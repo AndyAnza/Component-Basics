@@ -29,7 +29,9 @@ function App() {
   return (
     <div>
       <Header />
-      <Concepts items={concepts} />
+      <ul id="concepts">
+        <Concepts items={concepts} />
+      </ul>
     </div>
   );
 }
